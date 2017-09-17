@@ -8,4 +8,4 @@ jupyter notebook \
     --no-browser \
     --notebook-dir=$BASEDIR/notebooks \
     --config=$BASEDIR/config/jupyter_notebook_config.py \
-    --allow-root &
+    --allow-root > $BASEDIR/logs 2>&1 &
