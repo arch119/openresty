@@ -1,0 +1,9 @@
+1. Create dockerimage with openresty
+    cd docker/openresty
+    docker build -t openresty .
+
+2. Create dockerimage with jupyter installed
+    cd docker/openresty_jupyter
+    docker build -t openresty_jupyter .
+
+3. Run with start_docker.sh

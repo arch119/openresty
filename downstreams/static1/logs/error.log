@@ -1,0 +1,9 @@
+2017/09/17 08:12:46 [error] 110#110: *1 "/openresty/downstreams/static1/www/python/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /python/ HTTP/1.0", host: "localhost"
+2017/09/17 08:12:51 [error] 110#110: *2 "/openresty/downstreams/static1/www/python/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /python/ HTTP/1.0", host: "localhost"
+2017/09/17 08:17:34 [notice] 194#194: signal process started
+2017/09/17 08:18:02 [error] 201#201: *1 "/openresty/downstreams/static1/www/python/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /python/ HTTP/1.0", host: "localhost"
+2017/09/17 08:18:07 [error] 201#201: *2 "/openresty/downstreams/static1/www/python/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /python/ HTTP/1.0", host: "localhost"
+2017/09/17 08:22:01 [notice] 241#241: signal process started
+2017/09/17 08:23:38 [notice] 267#267: signal process started
+2017/09/17 08:25:40 [notice] 290#290: signal process started
+2017/09/17 08:26:06 [notice] 294#294: signal process started

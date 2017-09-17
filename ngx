@@ -1,0 +1,24 @@
+usage(){
+    echo "Usage: $0 [start|stop]"
+    exit 1
+}
+
+if [ $# -lt 1 ]; then
+    echo "No arguments given"
+    usage
+fi
+
+case $1 in 
+start)
+    nginx -p `pwd`/ -c conf/nginx.conf
+    ;;
+stop)
+    nginx -p `pwd`/ -s stop
+    ;;
+reload)
+    nginx -p `pwd`/ -s reload
+    ;;
+*)
+    usage
+    ;;
+esac
